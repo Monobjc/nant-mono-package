@@ -1,0 +1,3 @@
+nant/
+*.pkg
+.DS_Store
