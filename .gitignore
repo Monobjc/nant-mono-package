@@ -1,3 +1,4 @@
 nant/
 *.pkg
+*.tar.gz
 .DS_Store
