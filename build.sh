@@ -16,8 +16,9 @@ cd -
 
 # Create the archive
 ARCHIVE="`pwd`""/NAnt.tar.gz"
-cd nant/build/mono-4.0.unix/nant-*
-tar -zcf $ARCHIVE .
+cd nant/build/mono-4.0.unix
+mv nant* NAnt
+tar -zcf $ARCHIVE NAnt
 cd -
 
 # Create the package
