@@ -10,8 +10,8 @@ cd nant
 cp Makefile Makefile.orig
 cat Makefile.orig | sed -e "s/MCS=mcs/MCS=dmcs/" > Makefile
 rm Makefile.orig
-#make TARGET=mono-2.0 all
-#make TARGET=mono-4.0 all
+make TARGET=mono-2.0 all
+make TARGET=mono-4.0 all
 cd -
 
 # Create the archive
