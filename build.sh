@@ -22,4 +22,5 @@ tar -zcf $ARCHIVE NAnt
 cd -
 
 # Create the package
-/Developer/usr/bin/packagemaker --verbose --doc package.pmdoc -o NAnt.pkg
+PKG_MAKER="/Applications/PackageMaker.app/Contents/MacOS/PackageMaker"
+"$PKG_MAKER" --verbose --doc package.pmdoc -o NAnt.pkg
