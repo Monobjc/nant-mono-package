@@ -1,4 +1,6 @@
-nant/
+NAnt/
+src/
 *.pkg
 *.tar.gz
+package-*.pmdoc
 .DS_Store
