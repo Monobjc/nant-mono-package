@@ -2,11 +2,15 @@
 
 # Version check
 if [ "x$VERSION" == "x" ]; then
-    VERSION=0.92
+    VERSION=nightly
 fi
 
 # Applications
-PKG_MAKER="/Applications/PackageMaker.app/Contents/MacOS/PackageMaker"
+PKG_MAKER="/Developer/Applications/PackageMaker.app/Contents/MacOS/PackageMaker"
+if [ ! -f $PKG_MAKER ]; then
+	echo "PackageMaker was not found."
+	exit -1
+fi
 
 # Folders
 SRC_DIR="`pwd`/src"
