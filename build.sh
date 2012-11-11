@@ -2,7 +2,7 @@
 
 # Version check
 if [ "x$VERSION" == "x" ]; then
-    VERSION=nightly
+    VERSION=`date "+%Y-%m-%d"`
 fi
 
 # Applications
