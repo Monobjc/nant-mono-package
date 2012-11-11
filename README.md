@@ -5,7 +5,7 @@ This project provides a packaging script for NAnt. It is aimed to provide a way 
 
 The script does:
 
-* The fetching the NAnt source code from CVS
+* The fetching the NAnt source code from GitHub
 * The building NAnt targeting the Mono 4.0 profile
 * The packaging the result into a package
 
